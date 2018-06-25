@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "tsc",
-    "start": "node built/main.js",
+    "start": "ts-node src/main.ts",
     "test": "test"
   },
   "repository": {
@@ -25,6 +25,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "mongodb": "^3.0.10",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2",
     "ynab": "^1.0.0"
   },
   "devDependencies": {
