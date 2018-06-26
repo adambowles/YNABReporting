@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/main.ts",
+    "start": "nodemon -e ts -w ./src -x ts-node src/main.ts",
     "test": "test"
   },
   "repository": {
