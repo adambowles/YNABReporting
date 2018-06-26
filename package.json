@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "tsc",
+    "lint": "tslint -c tslint.json ./src/**/*.ts",
     "start": "nodemon -e ts -w ./src -x ts-node src/main.ts",
     "test": "test"
   },
@@ -35,6 +36,8 @@
     "awesome-typescript-loader": "^5.2.0",
     "dotenv": "^6.0.0",
     "nodemon": "^1.17.5",
-    "source-map-loader": "^0.2.3"
+    "source-map-loader": "^0.2.3",
+    "tslint": "^5.10.0",
+    "tslint-config-standard": "^7.1.0"
   }
 }
